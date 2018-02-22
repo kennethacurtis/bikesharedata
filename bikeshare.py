@@ -79,7 +79,7 @@ def get_day_in_month(city_data):
     month = input('\nFirst, lets select the month. January, February, March, April, May, or June?\n')
     month_data = city_data[city_data['Start Time'].dt.month == datetime.strptime(month, '%B').month]
     day = input('\nWhich day in your selected month? Please enter your response like so: Monday, Tuesday...ect\n')
-    return city_data[city_data['day_of_week'] == day]
+    return month_data[month_data['day_of_week'] == day]
 
 
 def get_time_period():
