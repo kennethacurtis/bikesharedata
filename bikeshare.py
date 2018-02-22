@@ -123,7 +123,7 @@ def popular_day(city_data):
     Returns:
         (str) Tells user the popular day
     '''
-    day_list = city_data.iloc['day_of_week'].value_counts().index.tolist()
+    day_list = city_data['day_of_week'].value_counts().index.tolist()
     pop_day = str(day_list[0])
     return '\nThe most popular day for the selected city is ' + pop_day
 
