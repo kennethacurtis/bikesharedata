@@ -9,7 +9,7 @@ to use the pandas library.
 
 ## Getting Started
 
-Download the data [here](https://drive.google.com/uc?export=download&id=1s7qUtnH1Q89eb17ojz9zIy4lJ5cl6P0y?)
+Download the data [here](https://drive.google.com/drive/folders/1s7qUtnH1Q89eb17ojz9zIy4lJ5cl6P0y?usp=sharing)
 
 Clone the repository
 ```
