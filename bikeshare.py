@@ -188,7 +188,7 @@ def popular_trip(city_data):
     # sorts size() number in order from biggest to smallest
     sort = start_end_size.sort_values('start_end_size', ascending = False).drop_duplicates(['Start Station', 'End Station'])
     start = sort['Start Station'].iloc[0]
-    end = sort['End Station'].iloc[1]
+    end = sort['End Station'].iloc[0]
     return '\nThe most popular trip for your selected city was between {} and {} station'.format(start,end)
 
 def users(city_data):
